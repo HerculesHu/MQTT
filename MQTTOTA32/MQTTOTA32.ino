@@ -1,10 +1,9 @@
 #include <ArduinoJson.h>
-#include <ESP8266WiFi.h>
-#include <ESP8266mDNS.h>
+#include <WiFi.h>
+#include <ESPmDNS.h>
 #include <WiFiUdp.h>
 #include <ArduinoOTA.h>
 #include <PubSubClient.h>
-
 
 
 const char* ssid = "hzy";
